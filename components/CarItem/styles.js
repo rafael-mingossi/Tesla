@@ -24,6 +24,11 @@ const styles = StyleSheet.create({
     resizeMode: "cover", //will resize the image in case doesnt fit the screen
     position: "absolute", //will keep the image in the background without pushing the other compenents to the bottom
   },
+  buttonContainer: {
+    position: "absolute",
+    bottom: 50, //this will position from the bottom to top
+    width: "100%",
+  },
 });
 
 export default styles;
