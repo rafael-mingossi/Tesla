@@ -29,6 +29,9 @@ const styles = StyleSheet.create({
     bottom: 50, //this will position from the bottom to top
     width: "100%",
   },
+  subtitleCTA: {
+    textDecorationLine: "underline",
+  },
 });
 
 export default styles;
