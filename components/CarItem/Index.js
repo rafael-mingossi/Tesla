@@ -4,7 +4,7 @@ import styles from "./styles";
 import StyledButton from "../StyledButton/Index.js";
 
 const CarItem = (props) => {
-  const { name, tagline, taglineCTA, image } = props;
+  const { name, tagline, taglineCTA, image } = props.car;
 
   return (
     <View style={styles.carContainer}>
@@ -22,7 +22,7 @@ const CarItem = (props) => {
       <View style={styles.buttonContainer}>
         <StyledButton
           type="primary"
-          content={"Custom Orders"}
+          content={"Custom Order"}
           onPress={() => {
             console.warn("order pressed");
           }}
